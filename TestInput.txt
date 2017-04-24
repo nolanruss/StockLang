@@ -1,0 +1,72 @@
+//Declare all the variables
+Stock $myStock;
+double myDub;
+int myInt;
+String myString;
+
+//Assign CORRECT values to the non-stock variables
+myDub = 1.1;
+myInt = 1;
+myString = "Hello Stock Lang";
+
+//Assign INCORRECT values to the non-stock variables
+//myDub = false;
+//myInt = "1";
+//myString = 12;
+
+//Assign CORRECT values to the Stock attributes
+$myStock.symbol = "AAPL";
+$myStock.companyName = "Apple Inc.";
+$myStock.currentPrice = 300;
+$myStock.yearHigh = 500;
+
+//Assign INCORRECT values to the Stock attributes
+//$myStock.symbol = 300;
+//$myStock.companyName = false;
+//$myStock.currentPrice = "AAPL";
+//$myStock.yearHigh = "300"; 
+
+Stock $ibm;
+
+//If statement
+int a;
+int b;
+int c;
+a = 1;
+b = 1;
+c = 1;
+if(b == c && a != 1){
+	double s;
+	myInt = 7+9;
+	$ibm.currentPrice = $myStock.currentPrice;
+	$ibm.symbol = "ibm";
+	PRINT("if statement");
+};
+
+//If-else statement
+if(b != c && a != 1){
+	double t;
+	myInt = 7+9;
+	$ibm.currentPrice = $myStock.currentPrice;
+	$ibm.symbol = "ibm";
+} else {
+	$ibm.symbol = "ibm";
+	PRINT("else statement");
+};
+
+//while loop
+double count;
+count = 0;
+while(count < 3){
+	count = count +1;
+	$myStock.currentPrice = count + 1;
+	PRINT("looping...");
+};
+
+/* predefined print function 
+testing block comment */
+PRINT(count);
+PRINT($ibm.symbol);
+PRINT($myStock.currentPrice);
+PRINT(myInt);
+PRINT_STOCK($myStock); 
