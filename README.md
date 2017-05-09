@@ -4,7 +4,7 @@ Alexander Ing
 Nolan Thompson
 
 ## Description
-The _StockLang_ compiler compiles files written for the _StockLang_ programming language into a _Java_ intermediate representation.  Follow the instructions below to download, build, and compile a sample _StockLang_ program file.
+The _StockLang_ compiler compiles files written for the _StockLang_ programming language into a _Java_ intermediate representation.  Follow the instructions below to download, build, and compile a sample _StockLang_ program file.  ANTLR is used to create a compiler from the provided _StockLang.g4_ grammar file.  The compiler will compile input files written in the __StockLang__ language into Java.  Follow the intructions below to generate and test the compiler.
 
 ## Instructions
 1. Clone the project git.  The project contains the necessary _.java_ files, and a sample program written in _StockLang_ called `TestInput.txt`.
